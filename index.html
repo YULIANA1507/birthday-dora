@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday Dora ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Confetti -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Sakura -->
+    <div id="sakura-container"></div>
+
+    <!-- Music -->
+    <audio id="music" loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="card">
+
+        <!-- PAGE 1 -->
+        <div class="page active">
+
+            <h1>🌸 Hai Dora! 🌸</h1>
+
+            <p>
+                Aku punya surprise kecil buat seseorang yang spesial...
+            </p>
+
+            <button onclick="nextPage()">
+                Mulai 💖
+            </button>
+
+        </div>
+
+        <!-- PAGE 2 -->
+
+        <div class="page">
+
+            <h1>🤔</h1>
+
+            <p>
+                Hari ini ada seseorang yang ulang tahun ya?
+            </p>
+
+            <button onclick="nextPage()">
+                Iyaaa ✨
+            </button>
+
+        </div>
+
+        <!-- PAGE 3 -->
+
+        <div class="page">
+
+            <h1>🎁</h1>
+
+            <p>
+                Siap menerima hadiah kecil dari aku?
+            </p>
+
+            <button onclick="startCountdown()">
+                Siapp!! ❤️
+            </button>
+
+        </div>
+
+        <!-- PAGE 4 -->
+
+        <div class="page">
+
+            <h1 id="count">
+                3
+            </h1>
+
+            <p>
+                Jangan berkedip ya... 👀
+            </p>
+
+        </div>
+
+        <!-- PAGE 5 -->
+
+        <div class="page">
+
+            <img src="foto.jpg" class="photo">
+
+            <h1>
+                🎂 Happy Birthday, Dora! 🤍
+            </h1>
+
+            <p>
+
+                Happy Birthday untuk sahabat terbaikku sejak SMP. ✨
+
+                <br><br>
+
+                Semoga di usiamu yang baru ini kamu selalu diberikan kesehatan,
+                kebahagiaan,
+                dan dikelilingi oleh orang-orang yang tulus menyayangimu.
+
+                <br><br>
+
+                Semoga semua impian, cita-cita,
+                dan rencana yang sedang kamu perjuangkan
+                satu per satu bisa terwujud.
+
+                <br><br>
+
+                Walaupun sekarang kita cuma bisa ketemu mungkin setahun sekali,
+                semoga kita tetap selalu keep in touch,
+                saling cerita,
+                saling support,
+                dan tetap menjadi sahabat sampai kapan pun.
+
+                <br><br>
+
+                Terima kasih sudah selalu ada dan menjadi Dora yang aku kenal.
+
+                <br>
+
+                Semoga persahabatan kita tetap awet sampai nanti jadi nenek-nenek. 💖
+
+                <br><br>
+
+                ────────── ⋆⋅☆⋅⋆ ──────────
+
+                <br><br>
+
+                <i>
+
+                    "Distance may change,<br>
+
+                    time may pass,<br>
+
+                    but a true friendship<br>
+
+                    will always find its way back."
+
+                </i>
+
+                <br><br>
+
+                Thank you for being
+
+                <br>
+
+                my forever bestie. 🫶🏻
+
+                <br><br>
+
+                <b>
+
+                    Happy Birthday, Dora. 🎂🤍
+
+                </b>
+
+                <br><br>
+
+                With love,
+
+                <br>
+
+                <b>YISW ❤️</b>
+
+                <br><br>
+
+                ────────── ⋆⋅☆⋅⋆ ──────────
+
+            </p>
+
+            <br>
+
+            <button onclick="document.getElementById('music').play()">
+                🎵 Putar Lagi Musik
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+Ganti foto.jpg dengan foto Dora dan music.mp3 dengan lagu pilihanmu, lalu buka index.html atau upload ke GitHub Pages.
